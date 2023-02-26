@@ -1,0 +1,1 @@
+1.  for host in `cat remhosts`; do ssh devops@$host hostname;done
